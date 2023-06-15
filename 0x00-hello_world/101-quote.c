@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * main - A program that prints set of characters followed by new line using fput
+ * main - A program that prints a line using fputs
  *
  * Return: 1 (Success)
  */
