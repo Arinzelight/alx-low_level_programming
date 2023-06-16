@@ -6,9 +6,15 @@
  */
 int main(void)
 {
-	for (int a = 0; a < 9; a++)
-		for (int b = a + 1; b < 10; b++)
+	int a, b;
+
+	for (a = 0; a < 9; a++)
+	{
+		for (b = a + 1; b < 10; b++)
+		{
 			printf("%d%d%s", a, b, (a != 8 || b != 9) ? ", " : "\n");
+		}
+	}
 
 	return (0);
 }
