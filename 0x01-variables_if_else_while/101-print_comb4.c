@@ -20,18 +20,12 @@ int main(void)
                     putchar(b + '0');
                     putchar(c + '0');
                     putchar(d + '0');
-
-                    if (!(a == 9 && b == 6 && c == 8 && d == 9))
-                    {
-                        putchar(',');
-                        putchar(' ');
-                    }
+                    putchar(d == 9 && c == 8 && b == 7 && a == 6 ? '\n' : ',');
+                    putchar(d == 9 && c == 8 && b == 7 && a == 6 ? '\0' : ' ');
                 }
             }
         }
     }
-
-    putchar('\n');
 
     return (0);
 }
