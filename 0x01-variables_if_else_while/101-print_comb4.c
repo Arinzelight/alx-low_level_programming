@@ -6,26 +6,27 @@
  */
 int main(void)
 {
-int a, b, c;
-for (a = 0; a < 8; a++)
-{
-for (b = a + 1; b < 9; b++)
-{
-for (c = b + 1; c < 10; c++)
-}
-putchar(a + '0');
-putchar(b + '0');
-putchar(c + '0');
-if (!(a == 7 && b == 8 && c == 9))
-{
-putchar(',');
-putchar(' ');
-}
-}
-}
-}
+        int i, j, k;
 
-putchar('\n');
-
-return (0);
+        for (i = 48; i < 58; i++)
+        {
+                for (j = 49; j < 58; j++)
+                {
+			for (k = 50; k < 58; K++)
+			{
+                        	if (k > j && m > i)
+                        	{
+                                	putchar(i);
+                               		putchar(j);
+                                	putchar(k);
+                                	if (i != 55 || j != 56)
+                                	{	
+                                        	putchar(',');
+                                        	putchar(' ');
+                                }	}
+                        }
+                }
+        }
+        putchar('\n');
+        return (0);
 }
