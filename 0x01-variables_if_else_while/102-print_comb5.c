@@ -2,29 +2,30 @@
 /**
  * main - Prints all possible combinations of two two-digit numbers.
  *
- * Return: Always 0.
+ * Return: 0 (Success)
  */
 int main(void)
 {
-    int a, b;
-
-    for (a = 0; a <= 99; a++)
-    {
-        for (b = a + 1; b <= 99; b++)
-        {
-            putchar((a / 10) + '0');
-            putchar((a % 10) + '0');
-            putchar(' ');
-            putchar((b / 10) + '0');
-            putchar((b % 10) + '0');
-
-            if (a != 98 || b != 99)
-            {
-                putchar(',');
-                putchar(' ');
-            }
-        }
-    }
-
-    return (0);
+	int i, j;
+	for (i = 0; i < 100; i++)
+	{
+		for(j = 0; j < 100; j++)
+		{
+			if (i < j)
+			{
+				putchar((i / 10 + 48);
+				putchar((i % 10 + 48);
+				putchar(' ');
+				putchar((j / 10) + 48);
+				putchar((j % 10) + 48);
+				if (i != 98 || j != 99)
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
+		}
+	}
+	putchar('\n');
+	return (0);
 }
