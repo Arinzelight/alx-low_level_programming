@@ -5,6 +5,7 @@
  * @a: The first number to be added
  * @b: Second number to be added
  * Return: sum of and b
+ */
 
 int add(int a, int b)
 {
