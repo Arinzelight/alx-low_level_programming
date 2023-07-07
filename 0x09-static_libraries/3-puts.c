@@ -13,14 +13,3 @@ int main(void)
 
 	return (0);
 }
-
-/**
- * _puts - Prints a string to the standard output
- * @str: The string to be printed
- *
- * Description: This function prints a string to the standard output.
- */
-void _puts(char *str)
-{
-	puts(str);
-}
